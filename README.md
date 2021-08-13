@@ -1,7 +1,20 @@
-# my_portfolio
+# Portfolio-App
 
-A new Flutter project.
+*This app is designed to make a basic look Portfolio*
 
-*My First App*
+*Technology used:*
 
-This app is design to make a portfolio for me
+   1. Flutter (UI toolki)
+   
+   2. Dart
+   
+   3. velocityX (which is a framework)
+
+*References:*
+
+=> MtechViral https://velocityx.dev/docs/install
+
+=> Flutter https://velocityx.dev/docs/install
+
+=> Dart https://dart.dev/guides
+
