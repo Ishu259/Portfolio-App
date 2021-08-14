@@ -1,4 +1,3 @@
-
 import 'dart:math';
 
 // ignore: unused_import
@@ -8,9 +7,7 @@ import 'package:flutter/material.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:my_portfolio/Middlebar.dart';
-// ignore: import_of_legacy_library_into_null_safe
 
-// ignore: unused_import
 import 'package:my_portfolio/color.dart';
 import 'package:my_portfolio/footBar.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -28,33 +25,35 @@ class ApppBar extends StatelessWidget {
           Imagewid(),
           VStack([
             customBar()
-                .shimmer(
-                    primaryColor: Vx.red400, secondaryColor: Vx.gray300)
+                .shimmer(primaryColor: Vx.red400, secondaryColor: Vx.gray300)
                 .p12(),
             20.heightBox,
             "Ishwarya"
                 .text
                 .extraBlack
                 .lineHeight(1.0)
-                .xl6
+                .xl4
+                .start
                 .make()
-                .shimmer(
-                    primaryColor: Vx.orange100, secondaryColor: Vx.gray300)
+                .shimmer(primaryColor: Vx.orange100, secondaryColor: Vx.gray300)
                 .p12(),
             20.heightBox,
-            VxBox().color(Colors.white).size(70, 10).make().px12().shimmer(
-                primaryColor: Vx.red400, secondaryColor: Vx.gray300),
-                20.heightBox,
-                socialMedias().p12(),
-                270.heightBox,
-                VStack([Middlepage().backgroundColor(Vx.red800),
-                30.heightBox,
-                ]),
-                VxBox(
-                  child: footBar(),
-                  
-                ).make()
-                
+            VxBox()
+                .color(Colors.white)
+                .size(70, 10)
+                .make()
+                .px12()
+                .shimmer(primaryColor: Vx.red400, secondaryColor: Vx.gray300),
+            20.heightBox,
+            socialMedias().p12(),
+            270.heightBox,
+            VStack([
+              Middlepage().backgroundColor(Vx.red800),
+              30.heightBox,
+            ]),
+            VxBox(
+              child: footBar(),
+            ).make()
           ])
         ])
       ])).make().scrollVertical(),
@@ -74,7 +73,6 @@ class Imagewid extends StatelessWidget {
         "lib/assets/me.jpeg",
         fit: BoxFit.cover,
         height: context.percentHeight * 60,
-        
       ),
     );
   }
@@ -101,31 +99,19 @@ class socialMedias extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return HStack([
-      Icon(
-        AntDesign.linkedin_square,
-        color: Vx.white,
-      ).mdClick(() {
+      Icon(AntDesign.linkedin_square, color: Vx.white, size: 25).mdClick(() {
         launch("https://www.linkedin.com/in/ishwarya-r-v-099512200/");
       }).make(),
-      10.widthBox,
-      Icon(
-        AntDesign.github,
-        color: Vx.white,
-      ).mdClick(() {
+      13.widthBox,
+      Icon(AntDesign.github, color: Vx.white, size: 25).mdClick(() {
         launch("https://github.com/Ishu259");
       }).make(),
-      10.widthBox,
-      Icon(
-        AntDesign.instagram,
-        color: Vx.white,
-      ).mdClick(() {
+      13.widthBox,
+      Icon(AntDesign.instagram, color: Vx.white, size: 25).mdClick(() {
         launch("https://www.instagram.com/rv.2592.rv/");
       }).make(),
-      10.widthBox,
-      Icon(
-        AntDesign.twitter,
-        color: Vx.white,
-      ).mdClick(() {
+      13.widthBox,
+      Icon(AntDesign.twitter, color: Vx.white, size: 25).mdClick(() {
         launch("https://twitter.com/Ishu_2592");
       }).make()
     ]);
