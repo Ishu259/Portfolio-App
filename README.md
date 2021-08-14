@@ -1,20 +1,20 @@
 # Portfolio-App
 
-*This app is designed to make a basic look Portfolio*
+*This is a basic Portfolio App*
 
-*Technology used:*
+*Technologies used:*
 
-   1. Flutter (UI toolki)
+   1. Flutter (UI toolkit)
    
    2. Dart
    
-   3. velocityX (which is a framework)
+   3. VelocityX (Framework)
 
 *References:*
 
-=> MtechViral https://velocityx.dev/docs/install
+➣ VelocityX https://velocityx.dev/docs/install
 
-=> Flutter https://velocityx.dev/docs/install
+➣ Flutter https://velocityx.dev/docs/install
 
-=> Dart https://dart.dev/guides
+➣ Dart https://dart.dev/guides
 
