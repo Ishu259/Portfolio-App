@@ -4,15 +4,15 @@
 
 *Technology used:*
 
-   1. Flutter (UI toolki)
+   1. Flutter (Software)
    
-   2. Dart
+   2. Dart (Language)
    
    3. velocityX (which is a framework)
 
 *References:*
 
-=> MtechViral https://velocityx.dev/docs/install
+=> Velocity_X https://velocityx.dev/docs/install
 
 => Flutter https://velocityx.dev/docs/install
 
